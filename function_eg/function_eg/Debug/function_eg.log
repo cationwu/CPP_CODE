@@ -1,0 +1,3 @@
+﻿  test.c
+D:\bit_learn\C_CODE\function_eg\function_eg\test.c(51): warning C4715: “Fn”: 不是所有的控件路径都返回值
+  function_eg.vcxproj -> D:\bit_learn\C_CODE\function_eg\Debug\function_eg.exe
