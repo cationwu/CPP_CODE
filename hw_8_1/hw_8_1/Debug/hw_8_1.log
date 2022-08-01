@@ -1,0 +1,6 @@
+﻿  test.c
+D:\bit_learn\C_CODE\hw_8_1\hw_8_1\test.c(84,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\bit_learn\C_CODE\hw_8_1\hw_8_1\test.c(89,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\bit_learn\C_CODE\hw_8_1\hw_8_1\test.c(102,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\bit_learn\C_CODE\hw_8_1\hw_8_1\test.c(107,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  hw_8_1.vcxproj -> D:\bit_learn\C_CODE\hw_8_1\Debug\hw_8_1.exe
