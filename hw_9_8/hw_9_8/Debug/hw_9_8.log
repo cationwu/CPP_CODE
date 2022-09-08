@@ -1,0 +1,3 @@
+﻿  test.c
+D:\bit_learn\C_CODE\hw_9_8\hw_9_8\test.c(73,32): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  hw_9_8.vcxproj -> D:\bit_learn\C_CODE\hw_9_8\Debug\hw_9_8.exe
