@@ -1,0 +1,3 @@
+﻿  test.c
+D:\bit_learn\C_CODE\hw_9_13\hw_9_13\test.c(53): warning C4716: “my_memmove”: 必须返回一个值
+  hw_9_13.vcxproj -> D:\bit_learn\C_CODE\hw_9_13\Debug\hw_9_13.exe
