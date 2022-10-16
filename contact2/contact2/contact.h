@@ -54,4 +54,4 @@ void ModifyContact(struct Contact* pc);
 void SortContact(struct Contact* pc);
 
 //Ïú»ÙÍ¨Ñ¶Â¼
-void DestoryContact(struct Contact* pc);
+void DestroyContact(struct Contact* pc);
