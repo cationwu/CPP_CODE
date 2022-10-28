@@ -1,6 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 
 //数组nums包含从0到n的所有整数，但其中缺了一个。找出那个缺失的整数。在O(n)时间复杂度内完成。
+// 
+// 思路1--求和相减
 //#include <stdio.h>
 //
 //int missingNumber(int* nums, int numsSize) {
@@ -26,6 +28,36 @@
 //    printf("%d\n", ret);
 //    return 0;
 //}
+
+//思路2--异或
+
+//#include <stdio.h>
+//
+//int missingNumber(int* nums, int numsSize)
+//{
+//	int i = 0;
+//	int ret = 0;
+//	for (i = 0; i <= numsSize; i++)
+//	{
+//		ret ^= i;
+//	}
+//	for (i = 0; i < numsSize; i++)
+//	{
+//		ret ^= nums[i];
+//	}
+//	return ret;
+//}
+//
+//int main()
+//{
+//	int arr[] = { 0,3,2 };
+//	int sz = sizeof(arr) / sizeof(arr[0]);
+//	int ret = missingNumber(arr, sz);
+//	printf("%d\n", ret);
+//	return 0;
+//}
+
+
 
 //旋转数组
 // 
@@ -106,40 +138,40 @@
 
 //解法三：前n-k个逆置，后k个逆置，整体逆置
 
-#include <stdio.h>
-
-void reverse(int* a, int begin, int end)
-{
-    while (begin < end)
-    {
-        int tmp = a[begin];
-        a[begin] = a[end];
-        a[end] = tmp;
-        begin++;
-        end--;
-    }
-}
-
-
-void rotate(int* nums, int numsSize, int k) 
-{
-    k %= numsSize;
-    reverse(nums, 0, numsSize - k - 1);
-    reverse(nums, numsSize - k ,numsSize-1);
-    reverse(nums, 0, numsSize-1);
-
-}
-
-int main()
-{
-    int arr[] = { 1,2,3,4,5,6,7 };
-    int sz = sizeof(arr) / sizeof(arr[0]);
-    int k = 3;
-    rotate(arr, sz, k);
-    int i = 0;
-    for (i = 0; i < sz; i++)
-    {
-        printf("%d ", arr[i]);
-    }
-    return 0;
-}
+//#include <stdio.h>
+//
+//void reverse(int* a, int begin, int end)
+//{
+//    while (begin < end)
+//    {
+//        int tmp = a[begin];
+//        a[begin] = a[end];
+//        a[end] = tmp;
+//        begin++;
+//        end--;
+//    }
+//}
+//
+//
+//void rotate(int* nums, int numsSize, int k) 
+//{
+//    k %= numsSize;
+//    reverse(nums, 0, numsSize - k - 1);
+//    reverse(nums, numsSize - k ,numsSize-1);
+//    reverse(nums, 0, numsSize-1);
+//
+//}
+//
+//int main()
+//{
+//    int arr[] = { 1,2,3,4,5,6,7 };
+//    int sz = sizeof(arr) / sizeof(arr[0]);
+//    int k = 3;
+//    rotate(arr, sz, k);
+//    int i = 0;
+//    for (i = 0; i < sz; i++)
+//    {
+//        printf("%d ", arr[i]);
+//    }
+//    return 0;
+//}
