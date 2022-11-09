@@ -1,0 +1,4 @@
+﻿  test.c
+D:\bit_learn\C_CODE\hw_11_06\hw_11_06\test.c(108,56): warning C4013: “malloc”未定义；假设外部返回 int
+D:\bit_learn\C_CODE\hw_11_06\hw_11_06\test.c(112,13): warning C4013: “exit”未定义；假设外部返回 int
+  hw_11_06.vcxproj -> D:\bit_learn\C_CODE\hw_11_06\Debug\hw_11_06.exe
